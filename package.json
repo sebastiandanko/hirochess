@@ -9,16 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.107.0",
+    "@types/nodemailer": "^8.0.0",
+    "chess.js": "^1.4.0",
+    "discord.js": "^14.26.4",
+    "next": "14.2.35",
+    "next-auth": "^4.24.14",
+    "nodemailer": "^8.0.10",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.35"
+    "react-chessboard": "^5.10.0",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
