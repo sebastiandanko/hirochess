@@ -18,13 +18,11 @@ export default function ChessBoard({
   return (
     <div style={{ width: '100%', maxWidth: boardWidth }}>
       <Chessboard
-        options={{
-          position: fen,
-          allowDragging: arePiecesDraggable,
-          squareStyles: highlightedSquares,
-          darkSquareStyle: { backgroundColor: '#2d4a3e' },
-          lightSquareStyle: { backgroundColor: '#c8d5b9' }
-        }}
+        position={fen}
+        arePiecesDraggable={arePiecesDraggable}
+        customSquareStyles={highlightedSquares}
+        customDarkSquareStyle={{ backgroundColor: '#2d4a3e' }}
+        customLightSquareStyle={{ backgroundColor: '#c8d5b9' }}
       />
     </div>
   )
